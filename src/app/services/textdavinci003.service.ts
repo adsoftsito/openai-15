@@ -17,7 +17,7 @@ apiURL = 'https://api.openai.com/v1/completions';
 httpOptions = {
   headers : new HttpHeaders( {
     'Content-Type' : 'application/json',
-    'Authorization': 'Bearer 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',
+    'Authorization': 'Bearer <key-here>',
   }) 
 }
 
