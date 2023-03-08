@@ -4,7 +4,7 @@ describe (" media test suite", () => {
 
  it ('Deberia regresar 550.6 si el array X = [150, 591...] ', () => {
     const resultado = media([160, 591, 114, 229, 230, 270, 128, 1657, 624, 1503]);
-    expect(resultado).toBe(650.6);
+    expect(resultado).toBe(550.6);
  })
 
  it('Deberia regresar 60.32 si el array X=[ 15.0, 69.9...] ', () => {
